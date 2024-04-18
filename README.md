@@ -2,6 +2,7 @@ Wheels for pyodide build of duckdb's Python packages
 
 
 Demo is available in a [Web based REPL](https://duckdb.github.io/duckdb-pyodide/console)
+
 Type:
 ```
 import duckdb
@@ -9,6 +10,8 @@ duckdb.sql('SELECT 42')
 ```
 to get started.
 
+
+** Wheels **
 Available wheels are, at the moment:
 
 Stable:
