@@ -101,11 +101,9 @@
             echo(result);
             return result;
           },
+          packages: ["micropip", "./wheels/duckdb-0.10.3.dev363-cp311-cp311-emscripten_3_1_46_wasm32.whl"]
         });
         let namespace = pyodide.globals.get("dict")();
-        await pyodide.loadPackage("micropip");
-        const micropip = pyodide.pyimport("micropip");
-	await micropip.install(["wheels/duckdb-0.10.2-cp311-cp311-emscripten_3_1_46_wasm32.whl"]);
         pyodide.runPython(
           `
             import sys
