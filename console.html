@@ -101,7 +101,7 @@
             echo(result);
             return result;
           },
-          packages: ["micropip", "./wheels/duckdb-1.0.0-cp312-cp312-pyodide_2024_0_wasm32.whl"]
+          packages: ["micropip", "./wheels/duckdb-1.0.0-cp311-cp311-emscripten_3_1_46_wasm32.whl"]
         });
         let namespace = pyodide.globals.get("dict")();
         pyodide.runPython(
