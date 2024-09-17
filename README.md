@@ -1,7 +1,6 @@
 Wheels for pyodide build of duckdb's Python packages
 
-
-Demo is available in a [Web based REPL](https://duckdb.github.io/duckdb-pyodide/console)
+Demo is available in a [Web based REPL](https://duckdb.github.io/duckdb-pyodide/console) or at https://pyodide.org/en/stable/console.html
 
 Type:
 ```
